@@ -18,6 +18,7 @@ public class Maven1 {
 		driver.findElement(By.xpath("//a[@title='Get Selenium']")).click();
 		System.out.println(driver.getTitle());
 		driver.close();
+		System.out.println("done");
 		
 		
 		}
